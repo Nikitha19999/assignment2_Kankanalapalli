@@ -27,5 +27,21 @@ My favorite place is vizag because of it's long coastal line and it is one of th
     * cocacola
     * Biscuits
 
+**[AboutMe.md](AboutMe.md)**
+
+---
+
+# Food I suggest to others
+I will create a table with 4 food items that I absolutely love. They are pizza, pasta, biryani, vanilla cake.
+
+|food item|location|cost|
+|---|---|---|
+|pizza|pizza hut|6$|
+|pasta|FSM|5$|
+|biryani|paradise|10$|
+|vanilla cake|fresh choice|4$|
+
+
+
 
 
