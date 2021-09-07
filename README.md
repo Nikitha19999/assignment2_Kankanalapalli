@@ -48,7 +48,45 @@ I will create a table with 4 food items that I absolutely love. They are pizza, 
 >"Little by little, one travels far."-*J.R.R. Tolkien*<br>
 >"Mistakes can't be erased, but they move you from your present position."-*Richard Diebenkorn*
 
+---
 
+# SQRT decomposition
+
+>The basic idea of sqrt decomposition is preprocessing. We'll divide the array a into blocks of length approximately n−−√, and for each block i we'll precalculate the sum of elements in it b[i].
+
+[Click Here to know more](https://en.wikipedia.org/wiki/SQRT_meldabe_decomposition)
+
+```
+
+// input data
+int n;
+vector<int> a (n);
+
+// preprocessing
+int len = (int) sqrt (n + .0) + 1; // size of the block and the number of blocks
+vector<int> b (len);
+for (int i=0; i<n; ++i)
+    b[i / len] += a[i];
+
+// answering the queries
+for (;;) {
+    int l, r;
+  // read input data for the next query
+    int sum = 0;
+    for (int i=l; i<=r; )
+        if (i % len == 0 && i + len - 1 <= r) {
+            // if the whole block starting at i belongs to [l, r]
+            sum += b[i / len];
+            i += len;
+        }
+        else {
+            sum += a[i];
+            ++i;
+        }
+}
+```
+
+[Code Source](https://cp-algorithms.com/data_structures/sqrt_decomposition.html)
 
 
 
