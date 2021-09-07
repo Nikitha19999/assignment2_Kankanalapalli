@@ -41,6 +41,16 @@ I will create a table with 4 food items that I absolutely love. They are pizza, 
 |biryani|paradise|10$|
 |vanilla cake|fresh choice|4$|
 
+---
+
+# Pithy Quotes
+
+>"Little by little, one travels far."-*J.R.R. Tolkien*<br>
+>"Mistakes can't be erased, but they move you from your present position."-*Richard Diebenkorn*
+
+
+
+
 
 
 
